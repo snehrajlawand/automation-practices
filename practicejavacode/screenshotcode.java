@@ -8,7 +8,7 @@ import org.apache.commons.io.FileUtils; // For FileUtils.copyFile
 
 public class ScreenshotExample {
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver", "path/to/chromedriver"); // Set path to your ChromeDriver
+//System.setProperty("webdriver.chrome.driver", "path/to/chromedriver"); // Set path to your ChromeDriver
         WebDriver driver = new ChromeDriver();
 
         try {
